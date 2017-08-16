@@ -1,0 +1,6 @@
+<apex:page docType="html-5.0" standardStylesheets="false" showHeader="false"
+    sidebar="false" standardController="Lead" 
+    extensions="AccountStatusController">
+  <c:AccountStatusComponent leadId="{!Lead.Id}" 
+      addressId="{!Lead.Address_ID__c}" />
+</apex:page>
